@@ -1,0 +1,21 @@
+rules:
+  master:
+    level: off
+    message: >
+      Please consider an alternative to `primary`.
+
+      See  https://inclusivenaming.org/ for more information
+  slave:
+    level: failure
+    message: >
+      Please consider an alternative to `secondary`. 
+      
+      See  https://inclusivenaming.org/ for more information
+  foo:
+    regex:
+      - /foo/gi
+      - /foobar/gi
+    level: failure
+ignore:
+ - ".github/in-solidarity.yml"  # default
+ - "**/*.yml"
