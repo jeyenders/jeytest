@@ -1,6 +1,6 @@
 rules:
   master:
-    level: off
+    level: failure
     message: >
       Please consider an alternative to `primary`.
 
