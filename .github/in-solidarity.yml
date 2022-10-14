@@ -15,6 +15,7 @@ rules:
     regex:
       - /foo/gi
       - /foobar/gi
+      - /foos/gi
     level: failure
 ignore:
  - ".github/in-solidarity.yml"  # default
