@@ -1,16 +1,12 @@
 rules:
   master:
-    level: failure
-    message: >
-      Please consider an alternative to `primary`.
-
-      See  https://inclusivenaming.org/ for more information
+    level: off
   slave:
     level: failure
     message: >
       Please consider an alternative to `secondary`. 
       
-      See  https://inclusivenaming.org/ for more information
+      See https://inclusivenaming.org/ for more information
   foo:
     regex:
       - /foo/gi
